@@ -11,6 +11,7 @@
     --leading-3xl: 48px;
 }
 
+
 @plugin "@tailwindcss/typography";
 @source "../views";
 @source "../../content";
