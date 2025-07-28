@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 58f1ce12-e24c-42d6-aa13-498c4fd6061f
 updated_by: 58f1ce12-e24c-42d6-aa13-498c4fd6061f
-updated_at: 1753716845
+updated_at: 1753718040
 page_builder:
   -
     id: mdmxbxn5
@@ -44,13 +44,7 @@ page_builder:
       -
         id: mdn45grf
         button:
-          text: 'button 1'
-        type: buttons
-        enabled: true
-      -
-        id: mdn45mym
-        button:
-          text: 'button 2'
+          text: 'Visit Us'
         type: buttons
         enabled: true
     top_illustrations:
