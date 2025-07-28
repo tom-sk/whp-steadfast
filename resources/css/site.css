@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:wght@300;400&family=Montserrat:wght@100;300;400;500;600;700;800&display=swap');
 @import "tailwindcss";
+
+@theme {
+    --text-5xl: 56px;
+    --text-5xl-sm: 156px;
+    --text-4xl: 48px;
+    --text-3xl: 40px;
+    --leading-5xl: 64px;
+    --leading-4xl: 56px;
+    --leading-3xl: 48px;
+}
+
 @plugin "@tailwindcss/typography";
 @source "../views";
 @source "../../content";
@@ -43,4 +54,3 @@
 body {
     font-family: 'Sweet Sans Pro', serif;
 }
-

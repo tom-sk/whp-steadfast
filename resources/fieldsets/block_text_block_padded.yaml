@@ -1,0 +1,58 @@
+title: 'Block: Text Block Padded'
+fields:
+  -
+    handle: title
+    field:
+      type: text
+      display: Title
+  -
+    handle: text
+    field:
+      type: textarea
+      display: Text
+  -
+    handle: text_size
+    field:
+      options:
+        -
+          key: 1
+          value: Large
+        -
+          key: 2
+          value: Base
+        -
+          key: 3
+          value: Small
+      type: select
+      display: 'Text Size'
+      instructions: 'Select text size'
+      default: '1'
+  -
+    handle: buttons
+    field:
+      type: replicator
+      display: Buttons
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            buttons:
+              display: Buttons
+              icon: direction-buttons
+              fields:
+                -
+                  import: button
+  -
+    handle: top_illustrations
+    field:
+      mode: grid
+      container: assets
+      type: assets
+      display: 'Top Illustrations'
+  -
+    handle: bottom_illustrations
+    field:
+      mode: grid
+      container: assets
+      type: assets
+      display: 'Bottom Illustrations'

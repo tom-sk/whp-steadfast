@@ -15,3 +15,9 @@ fields:
               fields:
                 -
                   import: block_page_header
+            block_text_block_padded:
+              display: 'Block: Text Block Padded'
+              icon: mail-chat-bubble-text
+              fields:
+                -
+                  import: block_text_block_padded
