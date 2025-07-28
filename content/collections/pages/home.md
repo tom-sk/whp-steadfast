@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 58f1ce12-e24c-42d6-aa13-498c4fd6061f
 updated_by: 58f1ce12-e24c-42d6-aa13-498c4fd6061f
-updated_at: 1753718040
+updated_at: 1753718459
 page_builder:
   -
     id: mdmxbxn5
