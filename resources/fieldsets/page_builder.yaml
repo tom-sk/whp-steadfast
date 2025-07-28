@@ -21,3 +21,9 @@ fields:
               fields:
                 -
                   import: block_text_block_padded
+            block_image:
+              display: 'Block: Image'
+              icon: media-image-camera
+              fields:
+                -
+                  import: block_image

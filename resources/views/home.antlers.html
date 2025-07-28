@@ -1,7 +1,7 @@
 {{ page_builder }}
     {{ if type == "block_text_block_padded" }}
 
-        <div class="container mx-auto px-4 py-[64px]">
+        <div class="max-w-[830px] mx-auto px-4 pt-[64px]">
             <div class="flex gap-4 justify-end mb-[64px]">
                 {{top_illustrations}}
                 <img src="{{ url }}" alt="{{ alt }}" class="w-24 h-auto" />
@@ -9,18 +9,18 @@
             </div>
 
             <div class="mb-[64px]">
-                <h2 class="text-[48px] leading-[56px] mb-[32px] font-bold uppercase">{{title}}</h2>
+                <h2 class="text-center text-3xl md:text-4xl leading-3xl md:leading-4xl mb-[32px] font-bold uppercase">{{title}}</h2>
 
                 <div class="mb-[32px]
-            {{ if text_size == 1 }}text-[20px] leading-[28px]{{ /if }}
-            {{ if text_size == 2 }}text-base leading-[24px]{{ /if }}
-            {{ if text_size == 3 }}text-sm leading-[20px] text-[#6C6A5C]{{ /if }}
-        ">
+                    {{ if text_size == 1 }}text-base md:text-[20px] leading-[28px]{{ /if }}
+                    {{ if text_size == 2 }}text-base leading-[24px]{{ /if }}
+                    {{ if text_size == 3 }}text-sm leading-[20px] text-[#6C6A5C]{{ /if }}
+                ">
                     {{ text }}
                 </div>
 
                 {{buttons}}
-                {{ partial:components/button-secondary title="{ button:text }" link="{ button:link }" }}
+                    {{ partial:components/button-secondary title="{ button:text }" link="{ button:link }" }}
                 {{/buttons}}
             </div>
 
@@ -33,6 +33,10 @@
             </div>
         </div>
 
+    {{ elseif type == "block_image" }}
+        <div class="w-full max-h-[617px] overflow-hidden">
+            <img src="{{image}}" alt="" class="w-full h-full object-cover">
+        </div>
     {{ elseif type == "block_page_header" }}
        {{ if block_type == "hero" }}
             {{ partial:partials/block_page_header_hero }}

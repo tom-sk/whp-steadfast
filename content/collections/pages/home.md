@@ -5,33 +5,8 @@ title: Home
 template: home
 author: 58f1ce12-e24c-42d6-aa13-498c4fd6061f
 updated_by: 58f1ce12-e24c-42d6-aa13-498c4fd6061f
-updated_at: 1753710127
+updated_at: 1753715124
 page_builder:
-  -
-    id: mdn44uhz
-    title: 'Input placeholder text'
-    text: 'Lorem ipsum dolor sit amet consectetur. Eu at id massa morbi. Enim nunc nisl auctor consequat et platea aliquam. Nunc purus ultricies eleifend bibendum. Enim pellentesque diam diam feugiat et auctor placerat tellus. Turpis sodales adipiscing est nisi dictum semper. Facilisi pellentesque morbi quisque nec odio nisl bibendum. At posuere leo est sollicitudin.'
-    text_size: 1
-    buttons:
-      -
-        id: mdn45grf
-        button:
-          text: 'button 1'
-        type: buttons
-        enabled: true
-      -
-        id: mdn45mym
-        button:
-          text: 'button 2'
-        type: buttons
-        enabled: true
-    top_illustrations:
-      - site/bird-1.png
-    bottom_illustrations:
-      - site/twig.png
-      - site/sheep.png
-    type: block_text_block_padded
-    enabled: true
   -
     id: mdmxbxn5
     block_type: hero
@@ -59,6 +34,36 @@ page_builder:
     button:
       text: 'Visit us'
     type: block_page_header
+    enabled: true
+  -
+    id: mdn44uhz
+    title: 'Where the past is living, nature flourishes & creativity thrives.'
+    text: 'Lorem ipsum dolor sit amet consectetur. Eu at id massa morbi. Enim nunc nisl auctor consequat et platea aliquam. Nunc purus ultricies eleifend bibendum. Enim pellentesque diam diam feugiat et auctor placerat tellus. Turpis sodales adipiscing est nisi dictum semper. Facilisi pellentesque morbi quisque nec odio nisl bibendum. At posuere leo est sollicitudin.'
+    text_size: 1
+    buttons:
+      -
+        id: mdn45grf
+        button:
+          text: 'button 1'
+        type: buttons
+        enabled: true
+      -
+        id: mdn45mym
+        button:
+          text: 'button 2'
+        type: buttons
+        enabled: true
+    top_illustrations:
+      - site/bird-1.png
+    bottom_illustrations:
+      - site/twig.png
+      - site/sheep.png
+    type: block_text_block_padded
+    enabled: true
+  -
+    id: mdn8pa53
+    image: site/banner.png
+    type: block_image
     enabled: true
 ---
 ## Welcome to your brand new Statamic site!
