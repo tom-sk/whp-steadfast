@@ -1,8 +1,19 @@
 ---
-title: Home
 id: home
-template: home
 blueprint: pages
+title: Home
+template: home
+author: 58f1ce12-e24c-42d6-aa13-498c4fd6061f
+updated_by: 58f1ce12-e24c-42d6-aa13-498c4fd6061f
+updated_at: 1753700996
+page_builder:
+  -
+    id: mdmxbxn5
+    block_type: hero
+    image: site/hero-image.png
+    title: "Come and be part\L of the story"
+    type: block_page_header
+    enabled: true
 ---
 ## Welcome to your brand new Statamic site!
 

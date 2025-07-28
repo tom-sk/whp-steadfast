@@ -1,4 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:wght@300;400&family=Montserrat:wght@100;300;400;500;600;700;800&display=swap');
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 @source "../views";
 @source "../../content";
+
+
+@font-face {
+    font-family: 'Sweet Sans Pro';
+    src: url('./fonts/SweetSansPro-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sweet Sans Pro';
+    src: url('./fonts/SweetSansPro-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sweet Sans Pro';
+    src: url('./fonts/SweetSansPro-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sweet Sans Pro';
+    src: url('./fonts/SweetSansPro-BoldItalic.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Add more as needed */
+
+
+body {
+    font-family: "Instrument Sans", serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Sweet Sans Pro', serif;
+}
+

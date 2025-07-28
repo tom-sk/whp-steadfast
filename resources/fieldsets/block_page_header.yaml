@@ -1,0 +1,40 @@
+title: 'Block: Page Header'
+fields:
+  -
+    handle: block_type
+    field:
+      options:
+        -
+          key: hero
+          value: Hero
+        -
+          key: text_image
+          value: 'Text and Image'
+        -
+          key: text
+          value: Text
+      placeholder: 'Select type'
+      type: select
+      display: 'Block Type'
+      default: hero
+  -
+    handle: image
+    field:
+      max_files: 1
+      container: assets
+      type: assets
+      display: Image
+      unless_any:
+        block_type: 'equals text'
+  -
+    handle: title
+    field:
+      type: text
+      display: Title
+  -
+    handle: text
+    field:
+      type: textarea
+      display: Text
+      unless:
+        block_type: 'equals hero'

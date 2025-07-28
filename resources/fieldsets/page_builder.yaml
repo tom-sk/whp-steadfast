@@ -1,0 +1,17 @@
+title: 'Page Builder'
+fields:
+  -
+    handle: page_builder
+    field:
+      type: replicator
+      display: 'Page Builder'
+      sets:
+        page_layout:
+          display: 'Page Layout'
+          sets:
+            block_page_header:
+              display: 'Block: Page Header'
+              icon: layout-header
+              fields:
+                -
+                  import: block_page_header
