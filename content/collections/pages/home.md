@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 58f1ce12-e24c-42d6-aa13-498c4fd6061f
 updated_by: 58f1ce12-e24c-42d6-aa13-498c4fd6061f
-updated_at: 1753715124
+updated_at: 1753716845
 page_builder:
   -
     id: mdmxbxn5
@@ -65,6 +65,23 @@ page_builder:
     image: site/banner.png
     type: block_image
     enabled: true
+  -
+    id: mdn950c1
+    illustration: site/bird-2.png
+    title: 'Input placeholder text'
+    text: |-
+      With its rich and colourful history, the Grade 1 listed Manor House at West Horsley Place has a wealth of secrets to share. 
+
+        Henry VIII, Elizabeth I and Guy Fawkes are among the many fascinating characters to have walked the corridors. Explore the house at your leisure on one of our monthly open days, or book a guided tour.
+    image: site/house-2.png
+    button:
+      text: 'Book Now'
+    type: block_text_image
+    enabled: true
+    text_formatted: |-
+      With its rich and colourful history, the Grade 1 listed Manor House at West Horsley Place has a wealth of secrets to share. 
+      <br/>
+      Henry VIII, Elizabeth I and Guy Fawkes are among the many fascinating characters to have walked the corridors. Explore the house at your leisure on one of our monthly open days, or book a guided tour.
 ---
 ## Welcome to your brand new Statamic site!
 

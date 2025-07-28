@@ -27,3 +27,9 @@ fields:
               fields:
                 -
                   import: block_image
+            block_text_image:
+              display: 'Block: Text and Image'
+              icon: text-formatting-all-caps
+              fields:
+                -
+                  import: block_text_and_image

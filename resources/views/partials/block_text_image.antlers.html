@@ -1,0 +1,17 @@
+<div class="grid md:grid-cols-2 gap-[156px] container px-4 py-[64px] items-center">
+    <div>
+        <img src="{{illustration}}" alt="" class="mb-[40px] md:mb-lg">
+
+        <h3 class="text-4xl leading-4xl font-bold uppercase md:mb-md">{{title}}</h3>
+
+        <div class="mb-md">
+            {{text_formatted}}
+        </div>
+
+        {{ partial:components/button title="{ button:text }" link="{ button:link }" }}
+    </div>
+
+    <div class="h-[450px] md:h-[750px] w-full overflow-hidden">
+        <img src="{{image}}" alt="" class="h-full w-full object-cover">
+    </div>
+</div>

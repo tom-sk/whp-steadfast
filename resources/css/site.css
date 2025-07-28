@@ -3,14 +3,14 @@
 
 @theme {
     --text-5xl: 56px;
-    --text-5xl-sm: 156px;
     --text-4xl: 48px;
     --text-3xl: 40px;
     --leading-5xl: 64px;
     --leading-4xl: 56px;
     --leading-3xl: 48px;
+    --margin-lg: 64px;
+    --margin-md: 32px;
 }
-
 
 @plugin "@tailwindcss/typography";
 @source "../views";

@@ -1,0 +1,28 @@
+title: 'Block: Text and Image'
+fields:
+  -
+    handle: illustration
+    field:
+      max_files: 1
+      container: assets
+      type: assets
+      display: Illustration
+  -
+    handle: title
+    field:
+      type: text
+      display: Title
+  -
+    handle: text_formatted
+    field:
+      type: markdown
+      display: 'Text Formatted'
+  -
+    handle: image
+    field:
+      max_files: 1
+      container: assets
+      type: assets
+      display: Image
+  -
+    import: button
