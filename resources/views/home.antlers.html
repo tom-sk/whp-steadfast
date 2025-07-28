@@ -1,22 +1,45 @@
 {{ page_builder }}
     {{ if type == "block_page_header" }}
        {{ if block_type == "hero" }}
-<div class="relative w-full h-[720px] overflow-hidden">
-    <img
-        src="{{image}}"
-        alt=""
-        class="absolute top-0 left-1/2 -translate-x-1/2 transform scale-[1.2] -translate-y-[30px] object-cover w-full h-full"
-    />
-    <div class="absolute inset-0 bg-black/20"></div>
-    <h1 class="relative z-10 text-white text-center text-[54px] leading-[64px] font-bold uppercase max-w-2xl mx-auto flex items-center justify-center h-full px-4">
-        {{title}}
-    </h1>
-</div>
+            <div class="relative w-full h-[520px] md:h-[720px] overflow-hidden">
+                <img
+                    src="{{image}}"
+                    alt=""
+                    class="absolute top-0 left-1/2 -translate-x-1/2 transform scale-[1.2] -translate-y-[30px] object-cover w-full h-full"
+                />
+                <div class="absolute inset-0 bg-black/20"></div>
+                <h1 class="relative z-10 text-white text-center text-[54px] leading-[64px] font-bold uppercase max-w-2xl mx-auto flex items-center justify-center h-full px-4">
+                    {{title}}
+                </h1>
+            </div>
+        {{ elseif block_type == "text" }}
+            <div class="py-[64px]">
+                <div class="max-w-2xl mx-auto mb-[64px] text-center">
+                    <h1 class="px-12 relative z-10 text-center text-[54px] leading-[64px] font-bold uppercase max-w-2xl mx-auto flex items-center justify-center mb-[32px]">{{title}}</h1>
+
+                    <div class="mb-[32px]">{{text}}</div>
 
 
+                    {{ partial:components/button title="{ button:text }" link="{ button:link }" }}
+                </div>
+            </div>
+        {{ elseif block_type == "text_image" }}
+            <div class="py-[64px]">
+                <div class="max-w-2xl mx-auto mb-[64px] text-center">
+                    <h1 class="px-12 relative z-10 text-center text-[54px] leading-[64px] font-bold uppercase max-w-2xl mx-auto flex items-center justify-center mb-[32px]">{{title}}</h1>
 
-{{/if}}
+                    <div class="mb-[32px]">{{text}}</div>
 
+
+                    {{ partial:components/button title="{ button:text }" link="{ button:link }" }}
+                </div>
+
+                <div
+                    class="w-full h-[480px] bg-cover bg-center"
+                    style="background-image: url('{{ image }}');"
+                ></div>
+            </div>
+        {{/if}}
     {{ elseif type == "block_block_page_header" }}
 
     {{ elseif type == "page_header" }}

@@ -1,0 +1,18 @@
+title: Button
+fields:
+  -
+    handle: button
+    field:
+      type: group
+      display: Button
+      fields:
+        -
+          handle: text
+          field:
+            type: text
+            display: Text
+        -
+          handle: link
+          field:
+            type: link
+            display: Link

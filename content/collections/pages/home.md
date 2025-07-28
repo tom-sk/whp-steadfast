@@ -5,13 +5,34 @@ title: Home
 template: home
 author: 58f1ce12-e24c-42d6-aa13-498c4fd6061f
 updated_by: 58f1ce12-e24c-42d6-aa13-498c4fd6061f
-updated_at: 1753700996
+updated_at: 1753706531
 page_builder:
   -
     id: mdmxbxn5
     block_type: hero
     image: site/hero-image.png
     title: "Come and be part\L of the story"
+    type: block_page_header
+    enabled: true
+    button:
+      text: 'Visit Us'
+  -
+    id: mdn1c1ql
+    block_type: text_image
+    image: site/banner.png
+    title: "Where creativity flourishes\L and nature thrives"
+    text: 'Lorem ipsum dolor sit amet consectetur. Eu at id massa morbi. Enim nunc nisl auctor consequat et platea aliquam. Nunc purus ultricies eleifend bibendum. Enim pellentesque diam diam feugiat et auctor placerat tellus. Turpis sodales adipiscing est nisi dictum semper. Facilisi pellentesque morbi quisque nec odio nisl bibendum. At posuere leo est sollicitudin.'
+    button:
+      text: 'Visit Us'
+    type: block_page_header
+    enabled: true
+  -
+    id: mdn3kk0c
+    block_type: text
+    title: "Where creativity flourishes\L and nature thrives"
+    text: 'Lorem ipsum dolor sit amet consectetur. Eu at id massa morbi. Enim nunc nisl auctor consequat et platea aliquam. Nunc purus ultricies eleifend bibendum. Enim pellentesque diam diam feugiat et auctor placerat tellus. Turpis sodales adipiscing est nisi dictum semper. Facilisi pellentesque morbi quisque nec odio nisl bibendum. At posuere leo est sollicitudin.'
+    button:
+      text: 'Visit us'
     type: block_page_header
     enabled: true
 ---

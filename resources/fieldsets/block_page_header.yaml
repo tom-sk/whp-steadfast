@@ -38,3 +38,5 @@ fields:
       display: Text
       unless:
         block_type: 'equals hero'
+  -
+    import: button
